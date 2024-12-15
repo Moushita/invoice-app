@@ -1,0 +1,101 @@
+.invoice-list {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.invoice-list p {
+  font-size: 18px;
+  color: #777;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #915f6d;
+  color: white;
+}
+
+td {
+  background-color: #f9f9f9;
+}
+
+.overdue-row {
+  color: #721c24;
+}
+
+.paid-row {
+  color: #155724;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-toggle {
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  color: #007bff;
+}
+
+.dropdown-toggle:hover {
+  color: #0056b3;
+}
+
+.dropdown-menu {
+  position: absolute;
+  right: 0;
+  top: 100%;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  width: 150px;
+}
+
+.dropdown-item {
+  padding: 10px;
+  font-size: 14px;
+  text-align: left;
+  width: 100%;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown-item:focus {
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  table {
+    font-size: 14px;
+  }
+
+  th,
+  td {
+    padding: 10px;
+  }
+
+  .dropdown-menu {
+    width: 120px;
+  }
+}

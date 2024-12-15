@@ -1,0 +1,23 @@
+.close-button {
+  background-color: #f1f1f1;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  border: 1px solid #bdbdbd;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+  width: 20%;
+  text-align: center;
+  display: block;
+  transition: background-color 0.3s;
+}
+
+.close-button:hover {
+  background-color: #e0e0e0;
+}
+
+.close-button:active {
+  background-color: #bdbdbd;
+}
