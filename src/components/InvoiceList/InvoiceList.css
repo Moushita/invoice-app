@@ -13,6 +13,8 @@ table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 10px;
+  table-layout: fixed;
+  word-wrap: break-word;
 }
 
 th,

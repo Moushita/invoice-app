@@ -3,9 +3,7 @@ import "./GeneralField.css";
 
 export const GeneralField = ({ field, value, onChange, lineItems }) => {
   if (field.condition && !field.condition(lineItems)) return null;
-
   const handleChange = (e) => onChange(field.name, e.target.value);
-
   return field.type === "select" ? (
     <select className="general-input" value={value} onChange={handleChange}>
       {field.options.map((option) => (

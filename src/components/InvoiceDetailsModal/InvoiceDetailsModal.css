@@ -8,10 +8,19 @@
   font-size: 16px;
   cursor: pointer;
   margin-top: 15px;
-  width: 20%;
+  max-width: 100%;
   text-align: center;
   display: block;
   transition: background-color 0.3s;
+  word-wrap: break-word;
+}
+
+@media (max-width: 768px) {
+  .close-button {
+    font-size: 14px;
+    padding: 8px 16px;
+    width: auto;
+  }
 }
 
 .close-button:hover {

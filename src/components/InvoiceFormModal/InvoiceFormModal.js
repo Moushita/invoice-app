@@ -102,9 +102,13 @@ export const InvoiceFormModal = ({ store, onClose }) => {
                 ? description
                 : field.name === "amount"
                 ? amount
+                : field.name === "note"
+                ? note
                 : field.name === "dueDate"
                 ? dueDate
-                : status
+                : field.name === "status"
+                ? status
+                : ""
             }
             onChange={handleFieldChange}
             lineItems={lineItems}
